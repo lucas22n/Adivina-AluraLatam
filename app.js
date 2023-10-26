@@ -5,7 +5,6 @@ const adivina = () => {
   alert("En caso de querer salir ingrese el numero -1");
 
   while (ingreso != aleatorio) {
-    let aleatorio = Math.round(Math.random() * 11);
     contador += 1;
     // En caso de querer mostrar el numero correcto o realizar "TRAMPA", eliminar el comentario de la siguiente linea.
     // alert(`El aleatorio es ${aleatorio}`);
